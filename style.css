@@ -1,0 +1,45 @@
+.inputForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+#addButton{
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;       
+    background:none;
+}
+#addButton:hover{
+    color: white;
+    background-color: #212A31; 
+    transition-duration: 0.5s;
+}
+#inputContent{
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+}
+table{
+    width: 100%;
+    margin-top: 30px;
+}
+.tableHeading{    
+    width: 33%;
+    height: 60px;
+    text-align: center;
+    color: white;
+    background-color: #212A31;
+    font-size: 20px;  
+}
+
+tr{
+    border: 1px solid black;
+}
+#newParaContent{
+    padding: 10px;
+    color: white;
+    background-color: #748D92;   
+}
+
